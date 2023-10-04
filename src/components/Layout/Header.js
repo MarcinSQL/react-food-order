@@ -1,4 +1,5 @@
 import React from "react";
+import mealsImage from "../../assets/meals.jpg";
 
 const Header = (props) => {
   return (
@@ -8,7 +9,7 @@ const Header = (props) => {
         <button>Cart</button>
       </header>
       <div>
-        <img  />
+        <img src={mealsImage} alt="A table full of delicious food!" />
       </div>
     </React.Fragment>
   );
